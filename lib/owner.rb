@@ -3,9 +3,11 @@ require 'pry'
 class Owner
   @@all = []
  
- def initialize(owner)
+ attr_reader :species
+ 
+ def initialize(owner,species = "human")
    @@all << self
-   
+   @species = species
  end
  
  def self.all
@@ -20,5 +22,6 @@ class Owner
     self.all.clear
   end
   
+
   
 end
