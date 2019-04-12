@@ -56,13 +56,12 @@ def feed_fish
 end 
  
 def sell_pets
-  @pets.each do |species|
-    species[1].each do |animal|
-      
-    animal.mood = "nervous"
+  pets.each do |species, animals|
+      animals.each do |animal|
+        animal.mood = "nervous"
+      end
+      animals.clear
     end
-    animal.clear
-  end 
 end   
   
   
