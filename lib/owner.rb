@@ -61,7 +61,7 @@ def sell_pets
       
     animal.mood = "nervous"
     end
-    animals.clear
+    animal.clear
   end 
 end   
   
