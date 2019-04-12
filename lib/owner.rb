@@ -16,4 +16,9 @@ class Owner
  self.all.length
  end
   
+  def self.clear
+    self.all.clear
+  end
+  
+  
 end
