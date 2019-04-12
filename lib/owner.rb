@@ -5,7 +5,7 @@ class Owner
  
  def initialize(owner)
    @@all << self
-   binding.pry
+   
  end
  
  def self.all
