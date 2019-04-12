@@ -1,8 +1,13 @@
 class Owner
   @@all = []
-  def self.all
+ 
+ def initialization(owner)
+   @@all << name
+ end
+ 
+ def self.all
     @@all
-  end
+ end
   
   
   
