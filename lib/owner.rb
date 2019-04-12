@@ -42,7 +42,7 @@ def walk_dogs
   
   @pets[:dogs].each do |dog|
     dog.mood = "happy"
-    binding.pry
+    
     end
 end
   
