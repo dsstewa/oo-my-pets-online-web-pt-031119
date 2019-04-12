@@ -39,9 +39,10 @@ def buy_dog(name)
 end   
 
 def walk_dogs
-  binding.pry
+  
   @pets[:dogs].each do |dog|
     dog.mood = "happy"
+    binding.pry
     end
 end
   
